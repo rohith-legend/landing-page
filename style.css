@@ -49,7 +49,7 @@ body {
     width: 100px;
     font-size: medium;
     color: white;
-    background-color: blue;
+    background-color: #3882F6;
     font-weight: bold;
     border: none;
     border-radius: 0.5rem;
@@ -110,5 +110,37 @@ body {
 .content3 .text2 {
     color: #1F2937;
     text-align: right;
+    font-weight: bold;
+}
+.content4{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content4 .container {
+    background-color: #3882F6;
+    padding: 2rem 3rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.content4 .container .text1 {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+.content4 .container .text2 {
+    font-size: medium;
+    color: white;
+}
+.content4 button {
+    padding: 0 3rem;
+    border-radius: 0.7rem;
+    background-color: inherit;
+    border-color: white;
+    border-style: solid;
+    color: white;
     font-weight: bold;
 }
